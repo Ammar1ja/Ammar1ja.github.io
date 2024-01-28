@@ -1,0 +1,35 @@
+.about-me{
+    position: relative;
+    margin-top: 200px;
+}
+
+@media (min-width:700px){
+    .about-me{
+        height: 100vh;
+        margin-top: 0px;
+    }
+    .about-me code{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.about-me code p{
+    background-color: #191d23;
+    padding: 10px;
+    border: 10px solid #f3dfb7;
+    border-radius: 10px;
+    font-size: 20px;
+}
+@media (max-width:600px){
+    .about-me code p{    
+        font-size: 16px;
+    }
+}
+.about-me p span{
+    color: #9b6dd7;
+}
+.about-me code{
+    color: #f3dfb7;
+}

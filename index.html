@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Global -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <!-- Header -->
+    <link rel="stylesheet" href="./css/header/header.css" />
+    <!-- Sections -->
+    <link rel="stylesheet" href="./css/sections/about-me.css" />
+    <link rel="stylesheet" href="./css/sections/activities.css" />
+    <link rel="stylesheet" href="./css/sections/certificates.css" />
+    <link rel="stylesheet" href="./css/sections/contact-me.css" />
+    <link rel="stylesheet" href="./css/sections/courses.css" />
+    <link rel="stylesheet" href="./css/sections/notes.css" />
+    <link rel="stylesheet" href="./css/sections/projects.css" />
+    <link rel="stylesheet" href="./css/sections/skills.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css.map" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/font-awesom/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ammar Jaber</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="image-slider">
+        <div class="overlay"></div>
+      </div>
+      <ul class="menu container">
+        <li onclick="currentSection(this)">
+          <a href="#about-me">About Me</a>
+        </li>
+        <li onclick="currentSection(this)">
+          <a href="/index.html#skills">Skills</a>
+        </li>
+        <li onclick="currentSection(this)">
+          <a href="/index.html#projects">Projects</a>
+        </li>
+        <li onclick="currentSection(this)">
+          <a href="/index.html#activities">Activities</a>
+        </li>
+        <li onclick="currentSection(this)">
+          <a href="/index.html#courses">Courses</a>
+        </li>
+        <li onclick="currentSection(this)">
+          <a href="/index.html#notes">Notes</a>
+        </li>
+        <li onclick="currentSection(this)">
+          <a href="/index.html#certificates">Certificates</a>
+        </li>
+        <li onclick="currentSection(this)">
+          <a href="/index.html#recommendations">Recommendations</a>
+        </li>
+        <li onclick="currentSection(this)">
+          <a href="/index.html#contact-me">Contact Me</a>
+        </li>
+      </ul>
+      <div class="menu-icon-cont">
+        <span class="menu-icon">
+          <i
+            class="menu-icon-i fa-solid fa-bars fa-xl"
+            onclick="openMenu(this)"
+          ></i>
+        </span>
+        <ul class="phone-menu container">
+          <li onclick="closeMenu()">
+            <a class="active" href="/index.html#about-me">About Me</a>
+          </li>
+          <li onclick="closeMenu()"><a href="/index.html#skills">Skills</a></li>
+          <li onclick="closeMenu()">
+            <a href="/index.html#activities">Activities</a>
+          </li>
+          <li onclick="closeMenu()">
+            <a href="/index.html#projects">Projects</a>
+          </li>
+          <li onclick="closeMenu()">
+            <a href="/index.html#courses">Courses</a>
+          </li>
+          <li onclick="closeMenu()"><a href="/index.html#notes">Notes</a></li>
+          <li onclick="closeMenu()">
+            <a href="/index.html#certificates">Certificates</a>
+          </li>
+          <li onclick="closeMenu()">
+            <a href="/index.html#recommendations">Recommendations</a>
+          </li>
+          <li onclick="closeMenu()">
+            <a href="/index.html#contact-me">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="container"></div>
+    </div>
+    <div class="container">
+      <div class="content">
+        <div class="about-me" id="about-me">
+          <code>
+            <p>
+              Hello, I'm Ammar Jaber, a passionate computer science student at
+              Al-Isra University in Jordan.
+              <span><b>Graduating in 2024</b></span
+              >, I'm filled with anticipation and enthusiasm for the future. My
+              academic journey has ignited a deep love for programming and a
+              drive to stay ahead of the curve in this ever-evolving field. I
+              thrive on the opportunity to learn new concepts and technologies,
+              adapting quickly to the latest advancements. One of my proudest
+              achievements is being a part of the esteemed
+              <span><b>One Million Jordanian Coders</b></span> initiative, where
+              I earned a nano-degree certificate. This immersive experience not
+              only expanded my coding prowess but also connected me with a
+              network of like-minded individuals devoted to advancing the field.
+              Additionally, I had the privilege of engaging in meaningful
+              discussions during a dialogue session organized by the
+              <span><b>Crown Prince Foundation</b></span
+              >, alongside fellow graduates on September 1, 2019. Beyond my
+              studies, I have pushed myself by participating in the
+              <span><b>Jordanian Collegiate Programming Contest (JCPC)</b></span
+              >. The competition, held at Irbid Private University on October
+              10, 2022, allowed me to further sharpen my problem-solving skills.
+              As I journey towards graduation, I eagerly seek new ventures to
+              apply my skills and knowledge, contributing to the exciting realm
+              of computer science. Thank you for taking the time to get to know
+              me. I'm eager to explore opportunities that allow me to apply my
+              skills and contribute to the ever-evolving field of computer
+              science.
+            </p>
+          </code>
+        </div>
+        <div class="skills" id="skills">
+          <div class="inner-skills">
+            <div class="skill-row">
+              <div class="skill-name">Problem Solving</div>
+              <div class="skill">
+                <div class="skill-range-1"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">Data Structure</div>
+              <div class="skill">
+                <div class="skill-range-2"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">Algorithms</div>
+              <div class="skill">
+                <div class="skill-range-3"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">HTML</div>
+              <div class="skill">
+                <div class="skill-range-4"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">CSS</div>
+              <div class="skill">
+                <div class="skill-range-5"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">JS</div>
+              <div class="skill">
+                <div class="skill-range-6"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">Bootstrap</div>
+              <div class="skill">
+                <div class="skill-range-7"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">PHP</div>
+              <div class="skill">
+                <div class="skill-range-8"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">MySQL</div>
+              <div class="skill">
+                <div class="skill-range-9"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="projects" id="projects">
+          <div class="inner-projects">
+            <div class="row">
+              <div
+                onclick="projectClicked('https://fanciful-brigadeiros-0fa42f.netlify.app')"
+                class="project-card col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12"
+              >
+                <div class="inner-project-card container">
+                  <img
+                    class="img-fluid"
+                    src="/Assets/Images/projects/azrar-media.png"
+                    alt="azrar-media-image"
+                  />
+                  <h3>Azrar Media</h3>
+                  <ol type="1">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>Bootstrap</li>
+                  </ol>
+                </div>
+              </div>
+              <div
+                onclick="projectClicked('https://animated-figolla-94b164.netlify.app')"
+                class="project-card col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12"
+              >
+                <div class="inner-project-card">
+                  <img
+                    class="img-fluid"
+                    src="/Assets/Images/projects/leon.png"
+                    alt="Leon-image"
+                  />
+                  <h3>Leon</h3>
+                  <ol type="1">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                  </ol>
+                </div>
+              </div>
+              <div
+                onclick="projectClicked('https://singular-mermaid-2c8b71.netlify.app')"
+                class="project-card col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12"
+              >
+                <div class="inner-project-card">
+                  <img
+                    class="img-fluid"
+                    src="/Assets/Images/projects/kasper.png"
+                    alt="Kasper-image"
+                  />
+                  <h3>Kasper</h3>
+                  <ol type="1">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                  </ol>
+                </div>
+              </div>
+              <div
+                onclick="projectClicked('https://stellular-halva-2a69dc.netlify.app')"
+                class="project-card col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12"
+              >
+                <div class="inner-project-card">
+                  <img
+                    class="img-fluid"
+                    src="/Assets/Images/projects/bondi.png"
+                    alt="Bondi-image"
+                  />
+                  <h3>Bondi</h3>
+                  <ol type="1">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                  </ol>
+                </div>
+              </div>
+              <div
+                onclick="projectClicked('https://leafy-taiyaki-46a8ef.netlify.app')"
+                class="project-card col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12"
+              >
+                <div class="inner-project-card">
+                  <img
+                    class="img-fluid"
+                    src="/Assets/Images/projects/to do list.png"
+                    alt="ToDoList-image"
+                  />
+                  <h3>To-Do-List</h3>
+                  <ol type="1">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                  </ol>
+                </div>
+              </div>
+              <div
+                onclick="projectClicked('https://fascinating-cobbler-fd1cc3.netlify.app')"
+                class="project-card col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12"
+              >
+                <div class="inner-project-card">
+                  <img
+                    class="img-fluid"
+                    src="/Assets/Images/projects/survey.png"
+                    alt="Survey-image"
+                  />
+                  <h3>Survey</h3>
+                  <ol type="1">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="activities" id="activities">
+          <div class="inner-activities">
+            <div class="col-12">
+              <div class="activity-card row">
+                <div class="activity-content">
+                  <a
+                    target="_blank"
+                    href="https://www.iu.edu.jo/index.php/ar/all-news/1255002867-iu-isra-0101010101"
+                    >"الإسراء" تشارك في المسابقة الأردنية للبرمجة</a
+                  >
+                  <p>
+                    شاركت جامعة الاسراء في المسابقة الأردنية للبرمجة ممثلةً
+                    بفريقين من كلية تكنولوجيا المعلومات ضمت الطلبة الآتيه
+                    أسماؤهم: (عمار جابر، لين عفانة، إبراهيم عوض، عبد الرحمن
+                    نغوي،روان أبو فردة،عبدالله السليحات ) وبإشراف وتدريب الدكتور
+                  </p>
+                </div>
+                <div class="activity-image img-fluid">
+                  <img src="./Assets/Images/projects/azrar-media.png" alt="" />
+                </div>
+              </div>
+              <div class="activity-card row">
+                <div class="activity-content">
+                  <a
+                    target="_blank"
+                    href="https://www.iu.edu.jo/index.php/ar/all-news/1255002867-iu-isra-0101010101"
+                    >"الإسراء" تشارك في المسابقة الأردنية للبرمجة</a
+                  >
+                  <p>
+                    شاركت جامعة الاسراء في المسابقة الأردنية للبرمجة ممثلةً
+                    بفريقين من كلية تكنولوجيا المعلومات ضمت الطلبة الآتيه
+                    أسماؤهم: (عمار جابر، لين عفانة، إبراهيم عوض، عبد الرحمن
+                    نغوي،روان أبو فردة،عبدالله السليحات ) وبإشراف وتدريب الدكتور
+                  </p>
+                </div>
+                <div class="activity-image img-fluid">
+                  <img src="./Assets/Images/projects/azrar-media.png" alt="" />
+                </div>
+              </div>
+              <div class="activity-card row">
+                <div class="activity-content">
+                  <a
+                    target="_blank"
+                    href="https://www.iu.edu.jo/index.php/ar/all-news/1255002867-iu-isra-0101010101"
+                    >"الإسراء" تشارك في المسابقة الأردنية للبرمجة</a
+                  >
+                  <p>
+                    شاركت جامعة الاسراء في المسابقة الأردنية للبرمجة ممثلةً
+                    بفريقين من كلية تكنولوجيا المعلومات ضمت الطلبة الآتيه
+                    أسماؤهم: (عمار جابر، لين عفانة، إبراهيم عوض، عبد الرحمن
+                    نغوي،روان أبو فردة،عبدالله السليحات ) وبإشراف وتدريب الدكتور
+                  </p>
+                </div>
+                <div class="activity-image img-fluid">
+                  <img src="./Assets/Images/projects/azrar-media.png" alt="" />
+                </div>
+              </div>
+              <div class="activity-card row">
+                <div class="activity-content">
+                  <a
+                    target="_blank"
+                    href="https://www.iu.edu.jo/index.php/ar/all-news/1255002867-iu-isra-0101010101"
+                    >"الإسراء" تشارك في المسابقة الأردنية للبرمجة</a
+                  >
+                  <p>
+                    شاركت جامعة الاسراء في المسابقة الأردنية للبرمجة ممثلةً
+                    بفريقين من كلية تكنولوجيا المعلومات ضمت الطلبة الآتيه
+                    أسماؤهم: (عمار جابر، لين عفانة، إبراهيم عوض، عبد الرحمن
+                    نغوي،روان أبو فردة،عبدالله السليحات ) وبإشراف وتدريب الدكتور
+                  </p>
+                </div>
+                <div class="activity-image img-fluid">
+                  <img src="./Assets/Images/projects/azrar-media.png" alt="" />
+                </div>
+              </div>
+              <div class="activity-card row">
+                <div class="activity-content">
+                  <a
+                    target="_blank"
+                    href="https://www.iu.edu.jo/index.php/ar/all-news/1255002867-iu-isra-0101010101"
+                    >"الإسراء" تشارك في المسابقة الأردنية للبرمجة</a
+                  >
+                  <p>
+                    شاركت جامعة الاسراء في المسابقة الأردنية للبرمجة ممثلةً
+                    بفريقين من كلية تكنولوجيا المعلومات ضمت الطلبة الآتيه
+                    أسماؤهم: (عمار جابر، لين عفانة، إبراهيم عوض، عبد الرحمن
+                    نغوي،روان أبو فردة،عبدالله السليحات ) وبإشراف وتدريب الدكتور
+                  </p>
+                </div>
+                <div class="activity-image img-fluid">
+                  <img src="./Assets/Images/projects/azrar-media.png" alt="" />
+                </div>
+              </div>
+              <div class="activity-card row">
+                <div class="activity-content">
+                  <a
+                    target="_blank"
+                    href="https://www.iu.edu.jo/index.php/ar/all-news/1255002867-iu-isra-0101010101"
+                    >"الإسراء" تشارك في المسابقة الأردنية للبرمجة</a
+                  >
+                  <p>
+                    شاركت جامعة الاسراء في المسابقة الأردنية للبرمجة ممثلةً
+                    بفريقين من كلية تكنولوجيا المعلومات ضمت الطلبة الآتيه
+                    أسماؤهم: (عمار جابر، لين عفانة، إبراهيم عوض، عبد الرحمن
+                    نغوي،روان أبو فردة،عبدالله السليحات ) وبإشراف وتدريب الدكتور
+                  </p>
+                </div>
+                <div class="activity-image img-fluid">
+                  <img src="./Assets/Images/projects/azrar-media.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.iu.edu.jo/index.php/ar/all-news/1255002867-iu-isra-0101010101"
+                >"الإسراء" تشارك في المسابقة الأردنية للبرمجة</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.khaberni.com/news/مبادرة-مليون-مبرمج-أردني-تنظم-جلسة-حوارية-448789"
+                >مبادرة مليون مبرمج أردني تنظم جلسة حوارية</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="courses" id="courses">
+          <ul>
+            <li>C# Basics</li>
+            <li>C# OOP</li>
+            <li>C# Data Structure</li>
+            <li>C# Algorithms</li>
+          </ul>
+        </div>
+        <div class="notes" id="notes">
+          <div class="inner-notes">
+            <table>
+              <tbody>
+                <tr>
+                  <th><i class="fa-solid fa-book"></i> Subject Name</th>
+                  <th><i class="fa-solid fa-sheet-plastic"></i> Cheat Sheet</th>
+                </tr>
+                <tr>
+                  <td>C# Basics</td>
+                  <td>
+                    <a
+                      href="./Assets/notes/C# Basics - Cheat Sheet.docx.pdf"
+                      download="C# Basics - Cheat Sheet.docx.pdf"
+                      >download</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>C# OOP</td>
+                  <td>
+                    <a
+                      href="./Assets/notes/C# OOP - Cheat Sheet.pdf"
+                      download="C# OOP - Cheat Sheet.pdf"
+                      >download</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>Logic Design</td>
+                  <td>
+                    <a
+                      href="./Assets/notes/Logic Design - Cheat Sheet.pdf"
+                      download="Logic Design - Cheat Sheet.pdf"
+                      >download</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>Data Base</td>
+                  <td>
+                    <a
+                      href="./Assets/notes/Database 1 - Cheat Sheet.pdf"
+                      download="Database 1 - Cheat Sheet.pdf"
+                      >download</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>System Development</td>
+                  <td>
+                    <a
+                      href="./Assets/notes/System Development Lifecycle - Cheat Sheet.pdf"
+                      download="System Development Lifecycle - Cheat Sheet.pdf"
+                      >download</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>Python Basics</td>
+                  <td>
+                    <a
+                      href="./Assets/notes/Python - Cheat Sheet.pdf"
+                      download="Python - Cheat Sheet.pdf"
+                      >download</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>Computer Architecture</td>
+                  <td>
+                    <a
+                      href="./Assets/notes/Computer Architecture - Cheat Sheet .pdf"
+                      download="Computer Architecture - Cheat Sheet .pdf"
+                      >download</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>Android</td>
+                  <td>
+                    <a
+                      href="./Assets/notes/Android - Cheat Sheet.pdf"
+                      download="Android - Cheat Sheet.pdf"
+                      >download</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>Networking</td>
+                  <td>
+                    <a
+                      href="./Assets/notes/Networking - Cheat Sheet.pdf"
+                      download="Networking - Cheat Sheet.pdf"
+                      >download</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>Information Security</td>
+                  <td>
+                    <a
+                      href="./Assets/notes/Information Security - Cheat Sheet.docx.pdf"
+                      download="Information Security - Cheat Sheet.docx.pdf"
+                      >download</a
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="certificates" id="certificates">
+          <div class="inner-certificates">
+            <div class="row">
+              <a
+                class="certificate-card col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12"
+                href="/Assets/Images/Certificates/Touned Applications.jpeg"
+                download="Touned Applications.jpeg"
+                ><div>
+                  <img
+                    class="img-fluid"
+                    src="./Assets/Images/Certificates/Touned Applications.jpeg"
+                    alt="Tuned-Application-Certificate"
+                  />
+                  <h3>Tuned Applications - Android Development</h3>
+                </div></a
+              >
+              <a
+                class="certificate-card col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12"
+                href="/Assets/Images/Certificates/ABND degree .pdf"
+                download="ABND degree .pdf"
+                ><div>
+                  <img
+                    class="img-fluid"
+                    src="./Assets/Images/Certificates/udacity.png"
+                    alt="Android Basics Nanodegree By Google - MENA"
+                  />
+                  <h3>Android Basics Nanodegree By Google - MENA</h3>
+                </div></a
+              >
+              <a
+                class="certificate-card col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12"
+                href="/Assets/Images/Certificates/step-by-step.pdf"
+                download="step-by-step.pdf"
+                ><div>
+                  <img
+                    class="img-fluid"
+                    src="./Assets/Images/Certificates/step-by-step.png"
+                    alt="Step By Step - Flutter Development"
+                  />
+                  <h3>Step By Step - Flutter Development</h3>
+                </div></a
+              >
+              <a
+                class="certificate-card col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12"
+                href="/Assets/Images/Certificates/2023-ICPC Jordanian CPC-PLACE.pdf"
+                download="2023-ICPC Jordanian CPC-PLACE.pdf"
+                ><div>
+                  <img
+                    class="img-fluid"
+                    src="./Assets/Images/Certificates/jcpc.png"
+                    alt="Tuned-Application-Certificate"
+                  />
+                  <h3>ICPC Jordanian Collegiate Programming Contest</h3>
+                </div></a
+              >
+              <a
+                class="certificate-card col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12"
+                href="/Assets/Images/Certificates/Understanding Personas.jpeg"
+                download="Understanding Personas.jpeg"
+                ><div>
+                  <img
+                    class="img-fluid"
+                    src="./Assets/Images/Certificates/Understanding Personas.jpeg"
+                    alt="Tuned-Application-Certificate"
+                  />
+                  <h3>Israa University - Understanding Personas</h3>
+                </div></a
+              >
+              <a
+                class="certificate-card col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12"
+                href="/Assets/Images/Certificates/Football Match Management.jpeg"
+                download="Football Match Management.jpeg"
+                ><div>
+                  <img
+                    class="img-fluid"
+                    src="./Assets/Images/Certificates/Football Match Management.jpeg"
+                    alt="Football-Match-Management-Certificate"
+                  />
+                  <h3>Israa University - Football Match Management</h3>
+                </div></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="recommendations" id="recommendations"></div>
+        <div class="contact-me" id="contact-me">
+          <ul>
+            <li>Phone: +962 795220587</li>
+            <li>Email: jaberr.ammar22@gmail.com</li>
+            <li>Linked In</li>
+          </ul>
+        </div>
+      </div>
+      <div class="go-up">
+        <i class="fa-solid fa-angle-up"></i>
+      </div>
+    </div>
+    <!-- Bootstrap -->
+    <script src="./js/bootstrap/bootstrap.min.js"></script>
+    <script src="./js/bootstrap/bootstrap.min.js.map"></script>
+    <!-- Font Awesome -->
+    <script src="./js/font-awesom/all.min.js"></script>
+    <!-- Image Slider -->
+    <script>
+      let backImage = document.getElementsByClassName("image-slider")[0];
+      let i = 0;
+      let images = [];
+      let slideTime = 12000; // 3 seconds
+
+      images[0] = "/Assets/Images/header/me-1.png";
+      images[1] = "/Assets/Images/header/me-2.jpg";
+      images[2] = "/Assets/Images/header/me-3.jpg";
+      images[3] = "/Assets/Images/header/me-4.JPG";
+
+      function changePicture() {
+        backImage.style.backgroundImage = `url(${images[i]})`;
+        if (i < images.length - 1) {
+          i++;
+        } else {
+          i = 0;
+        }
+        setTimeout(changePicture, slideTime);
+      }
+
+      window.onload = changePicture;
+    </script>
+    <!-- Scroll to up -->
+    <script>
+      let scrollButton = document.getElementsByClassName("go-up")[0];
+
+      scrollButton.addEventListener("click", function () {
+        window.scrollTo(0, 0);
+        // window.requestAnimationFrame(scrollToTop);
+        let item = document.getElementsByClassName("active")[0];
+        active(item);
+      });
+    </script>
+    <!-- Scrollable Menu -->
+    <script>
+      let menu = document.getElementsByClassName("menu")[0];
+      window.onscroll = function () {
+        if (window.pageYOffset < 100) {
+          menu.classList.remove("menuOnScroll");
+          scrollButton.style.display = "none";
+        } else {
+          menu.classList.add("menuOnScroll");
+          scrollButton.style.display = "block";
+          scrollButton.style.transition = "0.3s";
+        }
+      };
+    </script>
+    <!-- Phone Menu -->
+    <script>
+      let phoneMenu = document.getElementsByClassName("phone-menu")[0];
+      let isOpen = false;
+      let closeMenu = function () {
+        let icon = document.getElementsByClassName("menu-icon-i")[0];
+        icon.classList.toggle("fa-bars");
+        icon.classList.add("fa-xl");
+        phoneMenu.style.display = "none";
+        isOpen = false;
+      };
+      let openMenu = function (icon) {
+        if (!isOpen) {
+          icon.classList.toggle("fa-x");
+          icon.classList.remove("fa-xl");
+          phoneMenu.style.display = "flex";
+          isOpen = true;
+        } else {
+          icon.classList.toggle("fa-bars");
+          icon.classList.add("fa-xl");
+          phoneMenu.style.display = "none";
+          isOpen = false;
+        }
+      };
+    </script>
+    <!-- Scroll Pages
+    <script>
+      var pageHeight = window.innerHeight;
+      var isAnimating = false;
+      document.body.style.transform = "translate3d(0px,0px,0px)";
+
+      document.addEventListener("scroll", function (e) {
+        document.body.scrollTop = 0;
+      });
+      document.addEventListener("wheel", wheelListener);
+
+      function wheelListener(e) {
+        if (e.deltaY > 0) {
+          scrollPage(-pageHeight);
+        } else {
+          scrollPage(+pageHeight);
+        }
+      }
+
+      function scrollPage(scrollSize) {
+        if (isAnimating) {
+          return;
+        }
+        isAnimating = true;
+        var yPos = getNewYPos(scrollSize);
+        document.body.style.transform = "translate3d(0px," + yPos + ",0px)";
+      }
+
+      function getNewYPos(add) {
+        var oldYPos = document.body.style.transform.split(",")[1];
+        oldYPos = parseInt(oldYPos.replace(/px/, ""));
+        var newYPos = oldYPos + add;
+        if (newYPos > 0) {
+          isAnimating = false;
+        }
+        return Math.min(0, newYPos) + "px";
+      }
+
+      document.body.addEventListener("transitionend", function () {
+        setTimeout(function () {
+          isAnimating = false;
+        }, 500);
+        document.addEventListener("wheel", wheelListener);
+      });
+    </script> -->
+    <!-- active section -->
+    <script>
+      let active = function (item) {
+        var result = [],
+          node = item.parentNode.firstChild;
+        while (node) {
+          if (node !== this && node.nodeType === Node.ELEMENT_NODE)
+            result.push(node);
+          node = node.nextElementSibling || node.nextSibling;
+        }
+        for (let i = 0; i < result.length; i++) {
+          if (result[i].classList.contains("active")) {
+            result[i].classList.remove("active");
+          }
+        }
+      };
+      let currentSection = function (item) {
+        active(item);
+        item.classList.add("active");
+      };
+    </script>
+    <!-- onload -->
+    <script>
+      window.addEventListener("load", (event) => {
+        let menu = document.getElementsByClassName("menu")[0];
+        if (window.pageYOffset < 100) {
+          menu.classList.remove("menuOnScroll");
+          scrollButton.style.display = "none";
+        } else {
+          menu.classList.add("menuOnScroll");
+          scrollButton.style.display = "block";
+          scrollButton.style.transition = "0.3s";
+        }
+      });
+    </script>
+    <!-- Projects OnClick -->
+    <script>
+      let projectClicked = function (url) {
+        window.open(url);
+      };
+    </script>
+  </body>
+</html>

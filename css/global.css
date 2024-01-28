@@ -1,0 +1,71 @@
+:root{
+    /* Constants */
+    --fHeader:90px;
+    --fParagraph:16px;
+    --mainColor: #222831;
+    --secondColor:#f3dfb7;
+    --thirdColor: #9b6dd7;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: var(--mainColor) !important;
+    color: #f3dfb7 !important;
+    /* Scroll */
+    /* transform: translate3d(0px, 0px, 0px);
+    transition: all 700ms ease; */
+}
+@media (min-width:1000px) {
+  body{
+    overflow: hidden;
+}
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a{
+    color: #f3dfb7 !important;
+    text-decoration: none !important;
+}
+/* Custom Scroll Bar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--secondColor);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .go-up{
+    position: fixed;
+    bottom: 75px;
+    right: 75px;
+    border: 1px solid var(--secondColor);
+    padding: 10px 14px;
+    cursor: pointer;
+    display: none;
+  }
+@media (max-width:500px) {
+  .go-up{
+    bottom: 21px;
+    right: 21px;
+    padding: 5px 8px;
+  }
+}
